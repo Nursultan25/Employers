@@ -1,6 +1,6 @@
 package com.company;
 
-public class Coworker {
+public abstract class Coworker {
     private String name;
     private int age;
     private String salary;
@@ -53,4 +53,6 @@ public class Coworker {
     void goToVacation() {
         System.out.println("Im going to");
     }
+
+    public abstract void goToDayOff();
 }

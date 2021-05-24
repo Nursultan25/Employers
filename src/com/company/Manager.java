@@ -9,4 +9,9 @@ public class Manager extends Coworker{
     void goToVacation() {
         System.out.println("Im going to Thailand!");
     }
+
+    @Override
+    public void goToDayOff() {
+        System.out.println("I want to fly to scotland");
+    }
 }

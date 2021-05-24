@@ -20,7 +20,9 @@ public class Main {
         Object[] employers = new Object[] {parker, genta, mike, patric, jake, paul, george, leo, kyle, donald};
 
         for (int i=0;i <= employers.length;i++) {
+            System.out.print(employers[i] + ": ");
             print((Coworker) employers[i]);
+            ((Coworker) employers[i]).goToDayOff();
         }
     }
 

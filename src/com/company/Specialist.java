@@ -9,4 +9,9 @@ public class Specialist extends Coworker{
     void goToVacation() {
         System.out.println("Im going to Japan!");
     }
+
+    @Override
+    public void goToDayOff() {
+        System.out.println("I need to clear my head");
+    }
 }
