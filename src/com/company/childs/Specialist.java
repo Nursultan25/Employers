@@ -1,12 +1,14 @@
-package com.company;
+package com.company.childs;
 
-public class Specialist extends Coworker{
+import com.company.parent.Coworker;
+
+public class Specialist extends Coworker {
     public Specialist(String name, int age, String salary) {
         super(name, age, salary);
     }
 
     @Override
-    void goToVacation() {
+    public void goToVacation() {
         System.out.println("Im going to Japan!");
     }
 

@@ -1,4 +1,4 @@
-package com.company;
+package com.company.parent;
 
 public abstract class Coworker {
     private String name;
@@ -50,7 +50,7 @@ public abstract class Coworker {
         System.out.println(this.salary);
     }
 
-    void goToVacation() {
+    public void goToVacation() {
         System.out.println("Im going to");
     }
 

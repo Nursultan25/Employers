@@ -1,5 +1,11 @@
 package com.company;
 
+import com.company.childs.CEO;
+import com.company.childs.Developer;
+import com.company.childs.Manager;
+import com.company.childs.Specialist;
+import com.company.parent.Coworker;
+
 public class Main {
 
     public static void main(String[] args) {

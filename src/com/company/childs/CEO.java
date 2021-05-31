@@ -1,4 +1,6 @@
-package com.company;
+package com.company.childs;
+
+import com.company.parent.Coworker;
 
 public class CEO extends Coworker {
     public CEO(String name, int age, String salary) {
@@ -6,7 +8,7 @@ public class CEO extends Coworker {
     }
 
     @Override
-    void goToVacation() {
+    public void goToVacation() {
         System.out.println("Im going to Russia!");
     }
 
